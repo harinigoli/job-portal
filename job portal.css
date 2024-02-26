@@ -1,0 +1,87 @@
+
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: powderblue;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#search-form {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-form button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#search-form button:hover{
+    background-color: red;
+}
+
+#filter-options {
+    display: flex;
+    align-items: center;
+}
+
+#filter-options label {
+    margin-right: 10px;
+}
+
+#filter-options select {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#job-listings {
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
